@@ -1,7 +1,7 @@
 /* Estilos para o corpo da página */
 body {
     font-family: Arial, sans-serif; /* Fonte padrão para o texto */
-    background-color: #f0f4f8; /* Cor leve de fundo para a página */
+    background-color: #d14deb85; /* Cor leve de fundo para a página */
     color: #333; /* Cor padrão do texto */
     margin: 0;
     padding: 0;
@@ -9,17 +9,14 @@ body {
 
 /* Estilos para o cabeçalho */
 header {
-    background-color: #ffffff; /* Cor de fundo do cabeçalho */
+    background-color: rgb(233, 138, 233); /* Cor de fundo do cabeçalho */
     color: #333; /* Cor do texto no cabeçalho */
     padding: 20px;
     text-align: center;
     border-bottom: 2px solid #ddd; /* Linha sutil na parte inferior do cabeçalho */
-    transition: background-color 0.3s ease; /* Transição suave ao mudar de cor */
+
 }
 
-header:hover {
-    background-color: #f7f7f7; /* Cor de fundo ao passar o cursor */
-}
 
 /* Estilos para o menu de navegação */
 nav {
