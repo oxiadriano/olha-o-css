@@ -52,7 +52,7 @@ main {
     padding: 20px;
 }
 
-/* Estilos para o conteúdo principal em uma cor diferente do fundo */
+/* Estilos para as seções com fundo branco e sombra */
 section {
     background-color: #ffffff; /* Cor de fundo diferente do fundo da página */
     color: #333; /* Cor do texto na seção */
