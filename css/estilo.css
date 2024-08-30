@@ -12,15 +12,37 @@ header {
     background-color: rgb(233, 138, 233); /* Cor de fundo do cabeçalho */
     color: #333; /* Cor do texto no cabeçalho */
     padding: 20px;
-    text-align: center;
     border-bottom: 2px solid #ddd; /* Linha sutil na parte inferior do cabeçalho */
-
 }
 
+/* Container para a imagem do logo e o título */
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centraliza horizontalmente */
+    gap: 20px; /* Espaçamento entre a imagem e o título */
+}
+
+
+.logo {
+    width: 50px; /* Ajuste a largura conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+
+
+
+/* Estilos para o título */
+h1 {
+    font-size: 2rem; /* Ajusta o tamanho da fonte conforme necessário */
+    margin: 0; /* Remove o espaçamento padrão do título */
+    text-align: center; /* Centraliza o texto no cabeçalho */
+}
 
 /* Estilos para o menu de navegação */
 nav {
     margin-top: 10px;
+    text-align: center; /* Centraliza o menu de navegação */
 }
 
 nav ul {
