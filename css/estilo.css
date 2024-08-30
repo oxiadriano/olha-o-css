@@ -23,12 +23,6 @@ header {
     gap: 20px; /* Espaçamento entre a imagem e o título */
 }
 
-/* Estilos para a imagem do logo */
-.logo {
-    width: 250px; /* Define a largura da imagem como 50 pixels */
-    height: auto; /* Ajusta a altura automaticamente para manter a proporção */
-}
-
 /* Estilos para o título */
 h1 {
     font-size: 2rem; /* Ajusta o tamanho da fonte conforme necessário */
@@ -87,5 +81,10 @@ ul {
 
 li {
     margin-bottom: 10px; /* Adiciona espaçamento entre os itens da lista */
+}
+.fotos{
+    display: flex;
+    align-items: center;
+
 }
 
