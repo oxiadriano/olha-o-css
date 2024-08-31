@@ -1,96 +1,102 @@
-/* Estilos para o corpo da página */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap');
+
+
 body {
-    font-family: Arial, sans-serif; /* Fonte padrão para o texto */
+    font-family: 'Roboto', Arial, sans-serif; /* Fonte padrão para o texto */
     background-color: #d14deb85; /* Cor leve de fundo para a página */
     color: #333; /* Cor padrão do texto */
     margin: 0;
     padding: 0;
 }
 
-/* Estilos para o cabeçalho */
+
 header {
-    background-color: rgb(233, 138, 233); /* Cor de fundo do cabeçalho */
-    color: white; /* Cor do texto no cabeçalho */
+    background-color: rgb(233, 138, 233);
+    color: white;
     padding: 20px;
-    border-bottom: 2px solid #ddd; /* Linha sutil na parte inferior do cabeçalho */
+    border-bottom: 2px solid #ddd;
 }
 
-/* Container para a imagem do logo e o título */
+
 .header-container {
     display: flex;
-    align-items: center; /* Alinha a imagem e o título verticalmente no centro */
-    justify-content: center; /* Centraliza o conteúdo horizontalmente */
-    gap: 20px; /* Espaçamento entre a imagem e o título */
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 
-/* Estilos para o título */
+
 h1 {
-    font-size: 2rem; /* Ajusta o tamanho da fonte conforme necessário */
-    margin: 0; /* Remove o espaçamento padrão do título */
-    text-align: center; /* Centraliza o texto no cabeçalho */
+    font-family:
+    font-size: 2rem;
+    margin: 0;
+    text-align: center;
 }
 
-/* Estilos para o menu de navegação */
+
 nav {
     margin-top: 10px;
-    text-align: center; /* Centraliza o menu de navegação */
+    text-align: center;
 }
 
 nav ul {
-    list-style-type: none; /* Remove marcadores da lista */
+    list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
 nav ul li {
-    display: inline; /* Exibe os itens da lista em linha */
-    margin-right: 15px; /* Espaçamento entre os itens */
+    display: inline;
+    margin-right: 15px;
 }
 
 nav ul li a {
-    text-decoration: none; /* Remove o sublinhado dos links */
-    color: #333; /* Cor do texto dos links */
-    font-weight: bold; /* Negrito para os links */
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-family: 'Open Sans', Verdana, sans-serif;
 }
 
 nav ul li a:hover {
-    color: #007BFF; /* Cor ao passar o cursor sobre o link */
+    color: #007BFF;
 }
 
-/* Estilos para o conteúdo principal */
+
 main {
     padding: 20px;
 }
 
-/* Estilos para as seções com fundo branco e sombra */
+
 section {
-    background-color: #ffffff; /* Cor de fundo diferente do fundo da página */
-    color: #333; /* Cor do texto na seção */
+    background-color: #ffffff;
+    color: #333;
     padding: 20px;
-    border-radius: 8px; /* Bordas arredondadas para a seção */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil para destacar a seção */
-    margin-bottom: 20px; /* Espaçamento abaixo da seção */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
 }
 
-/* Estilos para listas */
+
 ul {
-    list-style-type: disc; /* Tipo de marcador da lista */
-    padding-left: 20px; /* Adiciona espaçamento interno à esquerda */
-    margin-left: 0; /* Remove qualquer margem à esquerda */
+    list-style-type: disc; 
+    padding-left: 20px; 
+    margin-left: 0; 
 }
 
 li {
-    margin-bottom: 10px; /* Adiciona espaçamento entre os itens da lista */
+    margin-bottom: 10px;
 }
-.fotos{
-    
+
+
+.fotos {
     display: flex;
     align-items: center;
-
 }
+
 .container {
     display: flex;
-    gap: 20px; /* Espaço entre as fotos */
+    gap: 20px;
 }
 
 .item {
@@ -101,20 +107,25 @@ li {
 img {
     max-width: 100%;
     height: auto;
-    border: 2px solid #000; /* Borda opcional */
+    border: 2px solid #000;
 }
-#img1{
+
+#img1 {
     width: 200px;
 }
-#img2{
+
+#img2 {
     width: 180px;
 }
-#img3{
+
+#img3 {
     width: 230px;
 }
-#img4{
+
+#img4 {
     width: 230px;
 }
-#img5{
+
+#img5 {
     width: 245px;
 }
