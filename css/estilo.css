@@ -10,7 +10,7 @@ body {
 /* Estilos para o cabeçalho */
 header {
     background-color: rgb(233, 138, 233); /* Cor de fundo do cabeçalho */
-    color: #333; /* Cor do texto no cabeçalho */
+    color: white; /* Cor do texto no cabeçalho */
     padding: 20px;
     border-bottom: 2px solid #ddd; /* Linha sutil na parte inferior do cabeçalho */
 }
@@ -83,8 +83,38 @@ li {
     margin-bottom: 10px; /* Adiciona espaçamento entre os itens da lista */
 }
 .fotos{
+    
     display: flex;
     align-items: center;
 
 }
+.container {
+    display: flex;
+    gap: 20px; /* Espaço entre as fotos */
+}
 
+.item {
+    border: 10px solid rgb(0, 0, 0);
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #000; /* Borda opcional */
+}
+#img1{
+    width: 200px;
+}
+#img2{
+    width: 180px;
+}
+#img3{
+    width: 230px;
+}
+#img4{
+    width: 230px;
+}
+#img5{
+    width: 245px;
+}
